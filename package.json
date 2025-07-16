@@ -17,6 +17,7 @@
         "esbuild": "^0.19.5"
     },
     "scripts": {
-        "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=dist/livewire-sortable.js"
+        "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=dist/livewire-sortable.js",
+        "watch": "esbuild --watch src/index.js --bundle --minify --sourcemap --outfile=dist/livewire-sortable.js"
     }
 }
