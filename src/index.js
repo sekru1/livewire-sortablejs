@@ -98,7 +98,7 @@ window.Livewire?.directive('sortable-group', ({ el, directive, component }) => {
 
     // optional: HTML-Attribut setzen zur besseren Zuordnung
     el.setAttribute('data-group-name', groupName);
-    console.log(groupName);
+    // console.log(groupName);
     el.livewire_sortable = window.Sortable.create(el, {
         sort: true,
         ...options,
